@@ -132,6 +132,16 @@ var client = multilevelAgent.Client({
 ```
 See more from `example/client.js`.
 
+#### API
+Access multilevel's APIs through `client.db`, e.g.:
+```javascript
+client.db.put('KEY', 'VALUE');
+client.db.get('KEY', function(err, value){
+
+});
+// ...
+```
+
 #### Events
 ##### error
 Emitted when an error occurs, e.g.:
