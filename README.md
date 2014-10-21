@@ -19,7 +19,7 @@ var server = multilevelAgent.Server([options]);
 ```
 The `options` could have below properties:
 - **location** The directory where to storage your data(**required**).
-- **autorestart** A value indicates whether automatic start the SERVER or not, `false` as default.
+- **autostart** A value indicates whether automatic start the SERVER or not, `false` as default.
 - **port** Port of TCP server, `8081` as default.
 - **auth** and **access** from [multilevel](https://github.com/juliangruber/multilevel#authentication)
 - **options** from [levelup](https://github.com/rvagg/node-levelup#options)
