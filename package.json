@@ -23,7 +23,7 @@
     "url": "https://github.com/Tjatse/multilevel-agent/issues"
   },
   "engines": [
-    "node >= 0.8.0"
+    "node >= 0.12.0"
   ],
   "dependencies": {
     "dynamic-timer": "^1.0.4",
