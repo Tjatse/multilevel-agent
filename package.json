@@ -1,6 +1,6 @@
 {
   "name": "multilevel-agent",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "makes multilevel server/client simpler and stronger, with auto restart and reconnect.",
   "main": "index.js",
   "scripts": {
