@@ -1,6 +1,6 @@
 {
   "name": "multilevel-agent",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "makes multilevel server/client simpler and stronger, with auto restart and reconnect.",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,8 @@
   ],
   "dependencies": {
     "dynamic-timer": "^1.0.4",
-    "leveldown": "^1.5.0",
-    "levelup": "^1.3.3",
+    "leveldown": "^5.1.0",
+    "levelup": "^4.0.2",
     "multilevel": "^7.3.0"
   },
   "devDependencies": {
